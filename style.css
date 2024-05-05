@@ -144,6 +144,8 @@ h3 {
 }
 
 
+
+
 strong {
   font-weight: var(--fw-700);
 }
@@ -151,6 +153,10 @@ strong {
 section,
 .section {
   padding: min(5vh, 7em) 0;
+}
+
+p {
+  margin-bottom: 20px;  
 }
 
 
@@ -218,6 +224,11 @@ figure img {
   margin:0 auto;
 }
 
+figcaption {
+  margin-top:10px;
+  font-weight:bold
+}
+
 /* typgraphy */
 
 .article-title,
@@ -231,7 +242,8 @@ figure img {
 }
 
 .section-title {
-  font-size: var(--fs-600);
+  font-size: var(--fs-700);
+  margin-bottom: 3rem;
 }
 
 
@@ -489,6 +501,10 @@ figure img {
 
 .list {
   list-style-type: disc;
+}
+
+.list li {
+  margin:10px 0;
 }
 
 .text-center {
