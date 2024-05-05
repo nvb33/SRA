@@ -152,7 +152,7 @@ strong {
 
 section,
 .section {
-  padding: min(5vh, 7em) 0;
+  padding: min(2vh, 2em) 0;
 }
 
 p {
@@ -320,10 +320,12 @@ figcaption {
 .hero {
   background-color: var(--clr-primary-500);
   color: var(--clr-neutral-100);
+  padding: 3rem 0;
 }
 
 .hero h1 {
   color: var(--clr-neutral-100);
+  font-size: var(--fs-600);
 }
 
 .hero > div {
