@@ -345,7 +345,7 @@ figcaption {
   max-height: max(15rem, 40vh); 
   object-fit: cover;
   border: 2px solid var(--clr-neutral-100);
-  float: right;
+  margin:0 auto;
 
 }
 
