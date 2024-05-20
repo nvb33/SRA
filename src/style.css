@@ -336,12 +336,17 @@ figcaption {
   gap: 2em;
 }
 
+.hero__visual {
+  margin-top: 0;
+}
+
 .hero__image {
-  width:70%;
+  width:60%;
   max-height: max(15rem, 40vh); 
   object-fit: cover;
   border: 2px solid var(--clr-neutral-100);
-  margin:0 auto;
+  float: right;
+
 }
 
 @media (min-width: 45em) {
