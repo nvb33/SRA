@@ -221,7 +221,7 @@ figure {
 }
 
 figure img {
-  margin:0 auto;
+  margin:2em auto 0 auto;
 }
 
 figcaption {
@@ -333,14 +333,15 @@ figcaption {
   grid-auto-flow: row;
   grid-auto-columns: 1fr;
   align-items: center;
-  gap: 3em;
+  gap: 2em;
 }
 
 .hero__image {
-  width: 100%;
-  /* max-height: max(15rem, 40vh); */
+  width:70%;
+  max-height: max(15rem, 40vh); 
   object-fit: cover;
   border: 2px solid var(--clr-neutral-100);
+  margin:0 auto;
 }
 
 @media (min-width: 45em) {
