@@ -879,6 +879,10 @@ button {
     padding-bottom: 0.5rem;
     border-bottom: var(--border);
   }
+
+  .parallel__block {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 600px) {
