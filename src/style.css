@@ -47,6 +47,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 /* Remove default margin */
 body,
 h1,
