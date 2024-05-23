@@ -217,6 +217,8 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: var(--gap, 1em);
+  align-content: space-between;
+  justify-content: center;
 }
 
 .text-center {
@@ -392,9 +394,9 @@ figcaption {
 }
 
 .homepage-content .flex-group img.homepage-image {
-  width:45%;
+  
   height:auto;
-  margin:1em;
+  margin:2em;
 }
 
 /* Individual page */
@@ -584,6 +586,47 @@ td {
 td, th {
   padding:.5rem 2rem;
   width:33%;
+} 
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr, caption { 
+		display: block; 
+	}
+
+  table caption {
+    width: 100%;
+  }
+
+
+  th {
+    float: left;
+    width:45%;
+  }
+
+	td { 
+		border: none;
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+
+  .bold {
+    font-weight: var(--fw-700);
+  }
 }
 
 /****** List of Contents ******/
@@ -887,11 +930,19 @@ button {
   .parallel__block {
     flex-direction: column;
   }
+
+  .flex-group {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 600px) {
   .right-container {
     display: none;
   }
+}
+
+@media (max-width:800px) {
+
 }
 
