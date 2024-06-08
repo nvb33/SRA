@@ -215,7 +215,6 @@ p {
 
 .flex-group {
   display: flex;
-  flex-wrap: wrap;
   gap: var(--gap, 1em);
   align-content: space-between;
   justify-content: center;
@@ -394,7 +393,6 @@ figcaption {
 }
 
 .homepage-content .flex-group img.homepage-image {
-  
   height:auto;
   margin:2em;
 }
@@ -929,6 +927,7 @@ button {
 
   .flex-group {
     justify-content: center;
+    flex-wrap: wrap;
   }
 }
 
