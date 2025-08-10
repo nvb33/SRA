@@ -1,6 +1,6 @@
 {
   "name": "eleventy",
-  "version": "3.1.2",
+  "version": "2.0.1",
   "description": "Test Site",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^2.0.1",
     "cross-env": "^7.0.3"
   },
   "dependencies": {
-    "eleventy": "^3.1.2",
+    "eleventy": "^2.0.1",
     "nunjucks": "^3.2.4"
   }
 }
